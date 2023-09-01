@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Background</title>
+
+    <style media="screen">
+        div{
+            width: 80%;
+            margin:0 auto;
+            height: 100px;
+        }
+        .bgcolor{
+            background-color: beige;
+        }
+        .bgimage{
+            background-image: url("clouds☁️.jpeg");
+        }
+        .bgposition{
+            height: 100px;
+            background: url("3_gusdur.jpg") #e6b1b1 no-repeat left; background-size: 80px;
+        }
+        .gradient1{
+            background: linear-gradient(to right, #A8DF8E, #F3FDE8, #FFE5E5, #FFBFBF);
+        }
+        .gradient2{
+            background: linear-gradient(#A8DF8E, #F3FDE8, #FFE5E5, #FFBFBF);
+        }
+    </style>
+</head>
+<body>
+    <div class="bgcolor">
+        <h1 align="center">Background Color</h1>
+      </div>
+      <div class="bgimage">
+        <h1 align="center">Background Image</h1>
+      </div>
+      <div class="bgposition">
+        <h1 align="center">Background Position</h1>
+      </div>
+      <div class="gradient1">
+        <h1 align="center">Gradient Background</h1>
+      </div>
+      <div class="gradient2">
+        <h1 align="center">Gradient Background</h1>
+      </div>
+</body>
+</html>
